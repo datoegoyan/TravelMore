@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelMore</title>
+    <link rel="icon" href="../img/plane-departure-solid.svg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./booking.css" />
+  </head>
+  <body>
+    <header id="header">
+      <section>
+        <aside class="left">
+          <nav>
+            <ul>
+              <li>
+                <h1 href="#">
+                  <img
+                    src="../img/mountain-sun-solid.svg"
+                    alt="mountain-sun-solid"
+                  />
+                  Travel more
+                </h1>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <aside class="right">
+          <nav>
+            <ul>
+              <li>
+                <a href="#"
+                  ><img
+                    onclick="profile()"
+                    class="user-solid"
+                    src="../img/user-solid.svg"
+                    alt="user-solid"
+                /></a>
+              </li>
+              <li>
+                <button onclick="ProperyListRedirect()" class="property-list">
+                  List your hotel
+                </button>
+              </li>
+              <li>
+                <button class="log-out" onclick="logout()">Log out</button>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+    </header>
+    <main>
+      <div class="card">
+        <section>
+          <div class="left">
+            <h1>Tbilisi sea hotel</h1>
+            <div class="paragraph">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda unde vero ut nostrum dolorum, omnis beatae itaque
+                vitae dignissimos cum, mollitia a voluptate officiis dolore vel
+                totam excepturi asperiores provident.
+              </p>
+            </div>
+            <div class="flex">
+              <div class="info">
+                <h3>Phone number: 123456789</h3>
+                <h3>Email address: user@gmail.com</h3>
+                <h3>Location: Tbilisi</h3>
+              </div>
+              <div class="price">
+                <h1>
+                  320₾
+                  <h4>Per night*</h4>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img src="../img/hotel1.jpg" alt="hotel" />
+          </div>
+        </section>
+      </div>
+      <div class="card">
+        <section>
+          <div class="left">
+            <h1>Batumi radison</h1>
+            <div class="paragraph">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda unde vero ut nostrum dolorum, omnis beatae itaque
+                vitae dignissimos cum, mollitia a voluptate officiis dolore vel
+                totam excepturi asperiores provident.
+              </p>
+            </div>
+            <div class="flex">
+              <div class="info">
+                <h3>Phone number: 59733825</h3>
+                <h3>Email address: sea@gmail.com</h3>
+                <h3>Location: Batumi</h3>
+              </div>
+              <div class="price">
+                <h1>
+                  192₾
+                  <h4>Per night*</h4>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img src="../img/hotel2.jpg" alt="hotel" />
+          </div>
+        </section>
+      </div>
+      <div class="card">
+        <section>
+          <div class="left">
+            <h1>Tbilisi sea hotel</h1>
+            <div class="paragraph">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda unde vero ut nostrum dolorum, omnis beatae itaque
+                vitae dignissimos cum, mollitia a voluptate officiis dolore vel
+                totam excepturi asperiores provident.
+              </p>
+            </div>
+            <div class="flex">
+              <div class="info">
+                <h3>Phone number: 55543689</h3>
+                <h3>Email address: hotel@gmail.com</h3>
+                <h3>Location: Kutaisi</h3>
+              </div>
+              <div class="price">
+                <h1>
+                  230₾
+                  <h4>Per night*</h4>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img src="../img/hotel3.jpg" alt="hotel" />
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 280,
+        duration: 400,
+      });
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="./booking.js"></script>
+    <script src="../authentication/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel More</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./img/plane-departure-solid.svg" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- LEFT AND RIGHT IS MADE JUST FOR STYLING I KNOW IT'S INCORRECT -->
+        <aside class="right">
+          <div>
+            <img class="idea-image" src="../img/idea.png" alt="idea" />
+          </div>
+        </aside>
+        <aside class="left">
+          <div>
+            <h1 class="login-text registration">Sigh in</h1>
+            <p>Register to book hotel all over the georgia!</p>
+            <p class="or">⎯⎯⎯⎯⎯⎯⎯ Create account to continue ⎯⎯⎯⎯⎯⎯⎯</p>
+            <h2>Name*</h2>
+            <input id="name" type="text" placeholder="Enter your name" />
+            <h2>Email*</h2>
+            <input id="email" type="email" placeholder="mail@website.com" />
+            <h2>Password*</h2>
+            <input id="password" type="text" placeholder="Min. 8 character" />
+            <div class="spacer"></div>
+            <div class="align">
+              <p class="create-account">
+                Already registered?
+                <a href="./registration.html">Log in</a>
+              </p>
+            </div>
+            <br />
+            <div class="spacer"></div>
+            <button onclick="registerUser()" type="submit" class="login-button">
+              Register
+            </button>
+          </div>
+          <p class="rights-reserved">©2022 Travel More All rights reserved.</p>
+        </aside>
+      </section>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+      <script src="./firebaseFunctions.js"></script>
+      <script src="./main.js"></script>
+    </main>
+  </body>
+</html>

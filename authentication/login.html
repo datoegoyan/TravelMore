@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelMore</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../img/plane-departure-solid.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://apis.google.com/js/api:client.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <aside class="left">
+          <div>
+            <a href="#"
+              ><img
+                src="../img/plane-departure-solid.svg"
+                alt="plane-departure-solid"
+            /></a>
+            <h1 class="login-text">Login</h1>
+            <p>Travel around georgia and get consultion support!</p>
+            <p class="or">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ Sign in to continue ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
+            <h2>Email*</h2>
+            <input
+              id="email"
+              class="email"
+              type="email"
+              placeholder="mail@website.com"
+            />
+            <h2>Password*</h2>
+            <input
+              id="password"
+              class="password"
+              type="password"
+              placeholder="Min. 8 character"
+            />
+            <br />
+            <div class="spacer"></div>
+            <div class="aligh">
+              <a class="forget-password" href="#">Forget password?</a>
+            </div>
+            <br />
+            <button onclick="auth()" type="submit" class="login-button">
+              Login
+            </button>
+            <p class="create-account">
+              Not registered yet?
+              <a href="./registration.html">Create an account</a>
+            </p>
+          </div>
+          <p class="rights-reserved">©2022 Travel More All rights reserved.</p>
+        </aside>
+        <aside class="right">
+          <img src="../img/travel.jpg" alt="" />
+        </aside>
+      </section>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+      <script src="./firebaseFunctions.js"></script>
+      <script src="./main.js"></script>
+    </main>
+  </body>
+</html>

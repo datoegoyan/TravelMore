@@ -1,0 +1,210 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+  margin: 0px;
+  padding: 0px;
+  background-color: #dce0fe;
+}
+header {
+  background-color: white;
+  padding-bottom: 10px;
+}
+header section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+header section aside nav ul {
+  display: flex;
+  padding: 0px;
+}
+header section aside nav ul li {
+  list-style: none;
+}
+header section aside nav ul li a {
+  text-decoration: none;
+}
+header section .right nav ul li a img {
+  margin-right: 12px;
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+header section .right nav ul li .log-out {
+  background-color: #5138ed;
+  color: white;
+  border: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 42px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header section .right nav ul li .log-out:hover {
+  color: #5138ed;
+  background-color: transparent;
+  border: solid 1px black;
+  transition: 0.5s;
+}
+header section .right nav ul li .property-list {
+  color: #5138ed;
+  background-color: transparent;
+  border: solid 1px black;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 42px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header section .right nav ul li .property-list:hover {
+  background-color: #5138ed;
+  color: white;
+  border: 0px;
+  transition: 0.5s;
+}
+header section .left nav ul li h1 img {
+  width: 30px;
+  margin-right: 5px;
+}
+header section .left nav ul li h1 {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0px;
+  margin-top: 5px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile form {
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+}
+.profile form h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+}
+.profile form h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.profile form h2 {
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+.profile a {
+  background-color: #5138ed;
+  color: white;
+  border: 0px;
+  width: 300px;
+  height: 42px;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-decoration: none;
+  border: solid black 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.todo {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px 20px 50px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.todo button {
+  float: right;
+}
+.todo textarea {
+  min-height: 80px;
+  max-height: 300px;
+}
+.listImage {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.display {
+  width: 80%;
+  margin: 0px auto;
+}
+.card h1{
+  font-size: 28px;
+  font-weight: 700;
+}
+.card h3{
+  font-size: 16px;
+}
+.card .info{
+  margin-top: 80px;
+  text-align: left;
+  margin-right: 25px;
+}
+.card .info h3{
+  font-weight: 600;
+}
+.card section{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+  margin-left: 20%;
+}
+.card .paragraph{
+  text-align: center;
+  margin-right: 30px;
+  color: #7D7D85;
+  font-size: 18px;
+}
+.card .right img{
+  width: 600px;
+  height: 500px;
+  object-fit:fill;
+}
+.card .left{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.card section{
+  width: 60%;
+}
+.card .flex{
+  display: flex;
+}
+.card .price{
+  color:  #FEBB02;
+  text-align: right;
+  margin-top: 60px;
+}
+.card{
+  margin-bottom: 80px;
+}
+.price{
+  margin-left: 50px;
+}
+.price h4{
+  margin-left: 80px;
+  margin-top: 5px !important;
+}
+.price h1{
+  margin-bottom: 0px ;
+}

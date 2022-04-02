@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #dce0fe;
+}
+/*     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+ */
+
+main section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 65%;
+  margin: 50px auto;
+}
+main section div {
+  padding: 40px 120px 60px 120px;
+}
+main section .left {
+  background-color: white;
+}
+main section .left a img {
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+}
+main section .right {
+  height: 100%;
+}
+main section .right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+main section .register-right {
+  object-fit: contain;
+  background-size: cover;
+}
+main section .right .idea-image {
+  width: 450px;
+  height: 450px;
+  margin-top: 50px;
+}
+main section .left .travel {
+  font-size: 15px;
+}
+main section .left .or {
+  font-size: 13px;
+  opacity: 0.6;
+}
+main section .left h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+main section .left .login-text {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+main section .left input {
+  height: 36px;
+  width: 300px;
+  border-radius: 20px;
+  border-color: black;
+  margin-left: 5px;
+}
+::placeholder {
+  padding-left: 15px;
+  color: gray;
+}
+main section .left a {
+  text-decoration: 0px;
+  color: #5138ed;
+}
+main section .left .forget-password {
+  font-weight: 600;
+  font-size: 13px;
+}
+main section .left .spacer {
+  padding: 0px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+main section .left .aligh {
+  padding: 0px;
+  text-align: end;
+  width: 81%;
+}
+main section .left .login-button {
+  background-color: #5138ed;
+  color: white;
+  border: 0px;
+  width: 300px;
+  height: 42px;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+main section .left .create-account {
+  font-size: 15px;
+  font-weight: 600;
+}
+main section .left .rights-reserved {
+  color: gray;
+  font-size: 14px;
+  padding-left: 120px;
+  margin-bottom: 30px;
+}
+.align {
+  padding: 0px;
+  text-align: right;
+  width: 80%;
+}
